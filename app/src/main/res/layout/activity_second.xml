@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="26dp"
+    android:background="#FFF7FB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" YOUR WORLD "
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#B34D82"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey, Welcome!"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:textColor="#7D3565"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell us where you are from "
+        android:textSize="16sp"
+        android:textColor="#89677D"
+        android:gravity="center"
+        android:layout_marginBottom="28dp"/>
+
+    <EditText
+        android:id="@+id/countryInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  🌍  Enter your country"
+        android:inputType="textCapWords"
+        android:textColor="#382536"
+        android:textColorHint="#987D91"
+        android:textSize="17sp"
+        android:padding="16dp"
+        android:backgroundTint="#D987B2"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done  ♡"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B34D82"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
